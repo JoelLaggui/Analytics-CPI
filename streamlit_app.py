@@ -89,7 +89,7 @@ def load_data():
     data_path = 'cleaned_Data.csv'
     if not os.path.exists(data_path):
         # Fall back to the absolute path if the file doesn't exist in the current directory
-        data_path = r"C:\Users\jenal\ForDataAnalysis\CPI_cleaned_enhanced.csv"
+        data_path = r"C:\Users\jenal\ForDataAnalysis\cleaned_Data.csv"
     df = pd.read_csv(data_path)
     return df
 
